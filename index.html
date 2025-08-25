@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Le petit chalet des frênes 1 - Cauterets </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icônes Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header class="bg-dark text-white text-center p-5" style="background:url('images/maison.jpg') center/cover no-repeat; height:300px;">
+    <div class="bg-dark bg-opacity-50 p-3 rounded">
+      <h1 class="display-4">Le petit chalet des frênes 1</h1>
+      <p class="lead">Location Appartement Cauterets centre ville</p>
+    </div>
+  </header>
+
+  <!-- Présentation -->
+  <section class="container my-5">
+    <h2 class="mb-3">DESCRIPTION</h2>
+    <p> Appartement moderne et refait à neuf pour 6/8 personnes.<br>
+
+Il se compose au premier niveau de deux chambres avec lit en 140 chacune, d’une salle de bain avec baignoire /douche et d’un wc séparé.<br> La pièce de vie dispose d’un canapé convertible en 140 et d’une cuisine toute équipée.<br> 
+A l'étage, une mezzanine "Dortoir" est composée de deux lits en 80 et deux matelas supplémentaires au besoin.<br>
+L'appartement dispose d'une cour privative et d'un grand balcon ainsi que d'un jardin en commun de la résidence avec des tables.
+</p>
+  </section>
+
+<section class="container my-5">
+    <h2 class="mb-3">SITUATION/ ACCES</h2>
+    <p>
+Le stationnement est gratuit dans la rue. Un parking également gratuit se trouve a 200m de l'appartement en remontant la rue.<br>
+L'appartement est Situé à 300m de l'esplanade des oeufs ( place centrale de Cauterets) et 500m des télécabines du lys, <br>
+l'accès aux télécabine se fait facilement à pied ou via des navettes<br> 
+
+  </section>
+
+
+
+  <!-- Carrousel photos -->
+  <section class="container my-5">
+    <h2 class="mb-3">Galerie photos</h2>
+    <div id="carouselMaison" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner rounded shadow">
+        <div class="carousel-item active">
+          <img src="image/photo1.jpg" class="d-block w-100" alt="Salon">
+        </div>
+        <div class="carousel-item">
+          <img src="image/photo2.jpg" class="d-block w-100" alt="Chambre 1">
+        </div>
+        <div class="carousel-item">
+          <img src="image/photo3.jpg" class="d-block w-100" alt="Vue balcon">
+        </div>
+	<div class="carousel-item">
+          <img src="image/photo4.jpg" class="d-block w-100" alt="Chambre 2">
+        </div>
+	<div class="carousel-item">
+          <img src="image/photo5.jpg" class="d-block w-100" alt="Chambre 3">
+        </div>
+	<div class="carousel-item">
+          <img src="image/photo6.jpg" class="d-block w-100" alt="Salon 2">
+        </div>
+      </div>
+<style>
+.carousel {
+  max-width: 800px;   /* largeur max du carrousel */
+  max-height: 600px;  /* hauteur max */
+  margin: 0 auto;     /* centrer dans la page */
+  overflow: hidden;   /* cache ce qui dépasse */
+}
+.carousel img {
+  width: 100%;        /* occupe toute la largeur dispo */
+  height: auto;       /* garde les proportions */
+  object-fit: cover;  /* recadre si besoin */
+}
+</style>
+      <!-- Contrôles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMaison" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Précédent</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMaison" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Suivant</span>
+      </button>
+      <!-- Indicateurs -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselMaison" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselMaison" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselMaison" data-bs-slide-to="2"></button>
+	<button type="button" data-bs-target="#carouselMaison" data-bs-slide-to="3"></button>
+	<button type="button" data-bs-target="#carouselMaison" data-bs-slide-to="4"></button>
+	<button type="button" data-bs-target="#carouselMaison" data-bs-slide-to="5"></button>
+	<button type="button" data-bs-target="#carouselMaison" data-bs-slide-to="6"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Caractéristiques -->
+  <section class="container my-5">
+    <h2 class="mb-3">Caractéristiques</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Couchages : 3 chambres + salon </li>
+      <li class="list-group-item">1 salles de bain</li>
+      <li class="list-group-item">Equipement: Internet/WIFI - TV - Appareil à raclette/fondue- Console de jeux - Four/ Four micro ondes- Lave Linge - Lit parapluie disponible sur demande- Réfrigirateur/congélateur - lave vaisselle - bouilloire - Cafetière (nespresso)- grille pain- Etc... </li>
+     
+    </ul>
+  </section>
+
+  <!--
+  Encart tarifs saisonniers pour page web (HTML/CSS pur)
+  - Responsive, accessible, facilement personnalisable
+  - Modifiez simplement les variables CSS (couleurs, devise) et les valeurs du tableau
+-->
+
+<section class="encart-tarifs" aria-labelledby="tarifs-title">
+  <style>
+    /* ===== Variables & reset minimal ===== */
+    .encart-tarifs { --brand:#0ea5e9; --ink:#0f172a; --muted:#64748b; --bg:#ffffff; --ring:rgba(14,165,233,.25); --radius:20px; --cur:"€"; }
+    .encart-tarifs * { box-sizing:border-box; }
+
+    /* ===== Card ===== */
+    .tarifs-card { max-width:920px; margin:clamp(16px,4vw,48px) auto; background:var(--bg); color:var(--ink); border-radius:var(--radius); box-shadow:0 10px 30px rgba(2,6,23,.08); border:1px solid rgba(2,6,23,.06); overflow:hidden; }
+
+    /* Header */
+    .tarifs-header { position:relative; padding:28px clamp(20px,4vw,40px); background:linear-gradient(135deg, #e0f2fe, #f0f9ff); border-bottom:1px solid rgba(2,6,23,.06); }
+    .tarifs-header h2 { margin:0; font-size:clamp(20px,3.2vw,28px); letter-spacing:.2px; }
+    .subtitle { margin-top:6px; color:var(--muted); font-size:clamp(13px,2.2vw,15px); }
+
+    /* CTA zone */
+    .cta-wrap { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+    .btn { appearance:none; border:1px solid transparent; border-radius:999px; padding:10px 16px; font-weight:600; cursor:pointer; transition:.2s ease; }
+    .btn-primary { background:var(--brand); color:#fff; box-shadow:0 6px 18px var(--ring); }
+    .btn-primary:hover { filter:brightness(.95); transform:translateY(-1px); }
+    .btn-ghost { background:#fff; color:var(--brand); border-color:var(--brand); }
+    .btn-ghost:hover { background:#f0f9ff; }
+
+    /* ===== Grid body ===== */
+    .tarifs-body { display:grid; grid-template-columns:1.35fr .65fr; gap:0; }
+    @media (max-width:820px){ .tarifs-body { grid-template-columns:1fr; } }
+
+    /* Table styles */
+    .table-wrap { padding:24px clamp(16px,3.5vw,32px); }
+    .legend { display:flex; gap:8px; align-items:center; color:var(--muted); font-size:13px; margin-bottom:14px; }
+    .legend .dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+    .dot.low { background:#93c5fd; }  /* Basse */
+    .dot.mid { background:#60a5fa; }  /* Moyenne */
+    .dot.high { background:#3b82f6; } /* Haute */
+
+    table { width:100%; border-collapse:separate; border-spacing:0; overflow:hidden; border-radius:14px; border:1px solid rgba(2,6,23,.08); }
+    thead th { text-align:left; font-size:13px; letter-spacing:.3px; color:var(--muted); background:#f8fafc; padding:12px 14px; border-bottom:1px solid rgba(2,6,23,.08); }
+    tbody td { padding:14px; border-bottom:1px solid rgba(2,6,23,.06); font-size:15px; }
+    tbody tr:last-child td { border-bottom:none; }
+    tbody tr:hover td { background:#fafcff; }
+    .badge { display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border-radius:999px; font-weight:600; font-size:13px; }
+    .badge.low { background:#eff6ff; color:#1e3a8a; }
+    .badge.mid { background:#eaf2ff; color:#153e75; }
+    .badge.high{ background:#e7efff; color:#0b3671; }
+    .dates { color:var(--muted); font-size:13px; display:block; margin-top:4px; }
+    .mono { font-variant-numeric:tabular-nums; font-feature-settings:"tnum" on, "lnum" on; }
+
+    /* Aside info */
+    .aside { padding:24px clamp(16px,3.5vw,28px); border-left:1px solid rgba(2,6,23,.06); background:linear-gradient( to bottom, #ffffff, #fcfdff ); }
+    @media (max-width:820px){ .aside { border-left:none; border-top:1px solid rgba(2,6,23,.06); } }
+    .aside h3 { margin:0 0 10px; font-size:18px; }
+    .aside ul { margin:10px 0 0; padding-left:18px; color:var(--muted); font-size:14px; }
+    .aside li { margin:6px 0; }
+    .price-big { font-size:30px; font-weight:800; }
+    .unit { color:var(--muted); font-weight:600; }
+    .highlight { display:inline-block; background:#f0f9ff; border:1px dashed #bae6fd; padding:6px 10px; border-radius:10px; font-size:13px; margin-top:8px; }
+
+    /* Footer */
+    .foot { padding:16px clamp(16px,3.5vw,28px); border-top:1px solid rgba(2,6,23,.06); font-size:12.5px; color:var(--muted); display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; }
+    .pill { background:#f1f5f9; padding:6px 10px; border-radius:999px; }
+  </style>
+
+  <div class="tarifs-card" role="region" aria-label="Tarifs de location saisonnière">
+    <div class="tarifs-header">
+      <h2 id="tarifs-title">Tarifs</h2>
+         <div class="cta-wrap">
+      
+      </div>
+    </div>
+
+ <div class="tarifs-body">
+      <!-- Tableau des saisons -->
+      <div class="table-wrap">
+        <div class="legend" aria-hidden="true">
+         
+        </div>
+
+
+        <table aria-describedby="tarifs-title">
+          <thead>
+            <tr>
+              <th scope="col">Saison</th>
+              <th scope="col">Périodes</th>
+              <th scope="col">Nuit</th>
+              <th scope="col">Semaine</th>
+              <th scope="col">Min. nuits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="badge low">été</span>
+              </td>
+              <td>
+                <strong>Juillet</strong> & <strong>Aout</strong>
+                <span class="dates">-30% hors 15 juillet/15 Aout</span>
+              </td>
+              <td class="mono">110€<span aria-hidden="true"> </span><span class="unit">/ nuit</span></td>
+              <td class="mono">750€<span class="unit"> / semaine</span></td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="badge mid">Weekend SKI </span>
+              </td>
+              <td>
+                <strong>hors vacances scolaire</strong>
+              </td>
+              <td class="mono">150€<span class="unit"> / nuit</span></td>
+              <td class="mono"><span class="unit"></span></td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="badge high">Hivers</span>
+              </td>
+              <td>
+                <strong> Vacances Scolaires Hivers </strong>
+                <span class="dates">Prix moyen</span>
+              </td>
+		<td class="mono"> <span class="unit"> </span></td>
+                <td class="mono">1800€<span class="unit"> / semaine</span></td>
+              <td>7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Infos secondaires -->
+      <aside class="aside" aria-label="Informations complémentaires">
+      
+        <p><span class="price-big mono">À partir de 80<span aria-hidden="true"> </span><span class="unit">€/nuit</span></span></p>
+        <div class="highlight">Remise -10% à partir de 8 nuits</div>
+        <ul>
+ 	
+          <li>Ménage fin de séjour : 45€ </li>
+          <li>Taxe de séjour : 1,50€/adulte/nuit</li>
+          <li>Caution : 300€ (non encaissée)</li>
+          <li>Arrivée 16h • Départ 11h • Non-fumeur • Animaux sur demande</li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="foot">
+      <div class="pill">Politique d'annulation : remboursement 100% jusqu'à J-60</div>
+      <div>Dernière mise à jour : <time datetime="2025-01-15">15 janv. 2025</time></div>
+    </div>
+  </div>
+</section>
+
+<!--
+  Personnalisation rapide :
+  - Couleur marque : remplacez --brand
+  - Devise : remplacez --cur (affichage symbolique, ou bien remplacez les valeurs dans les cellules)
+  - Tarifs/conditions : modifiez les lignes du tableau et la liste dans l'aside
+  - Intégration : copiez-collez le <section> dans votre page. Les styles sont encapsulés.
+-->
+
+
+<!-- Disponibilités -->
+ <section class="container my-5">
+    <h2 class="mb-3">Disponibilités</h2>
+    <p>Se référer aux deux sites de location les plus connus et taper " Le petit chalet des frênes 1"</p>
+
+
+   <!-- Contact -->
+  <section class="container my-5">
+    <h2 class="mb-3">Contact</h2>
+    <p>Pour plus d’informations :</p>
+    <ul>
+      <li>📞 0619383450</li>
+      <li>📧 flolep31@hotmail.com</li>
+    </ul>
+    
+    <!-- Boutons rapides -->
+    <div class="d-flex gap-3 mb-4">
+      <!-- Bouton WhatsApp -->
+      <a href="https://wa.me/33619383450" target="_blank" class="btn btn-success">
+        <i class="bi bi-whatsapp"></i> WhatsApp
+      </a>
+      <!-- Bouton Appel direct -->
+      <a href="tel:+33619383450" class="btn btn-primary">
+        <i class="bi bi-telephone"></i> Appeler
+      </a>
+    </div>
+
+    <!-- Formulaire -->
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Pied de page -->
+  <footer class="bg-dark text-white text-center p-3">
+    &copy; 2025 - location Appartement - Cauterets
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
