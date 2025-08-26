@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tonpseudo.github.io/mon-projet/sitemap.xml
+
+Sitemap: https://locationcauterets.github.io/petitchaletdesfrenes1/sitemap.xml
